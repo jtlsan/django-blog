@@ -1,6 +1,9 @@
 from django.db import models
 
 # Create your models here.
+
+"auth.User"
+
 class Item(models.Model):
     title  = models.CharField(max_length=100)
     desc = models.TextField(blank=True)
